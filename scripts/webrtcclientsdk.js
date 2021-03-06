@@ -19,7 +19,7 @@ console.log("(webrtcclientsdk.js) client Ref Design loading...");
 	const sdkVersion = {
 		major : 1,
 		minor : 4,
-		build : 0	
+		build : 1	
 	};
 
 /* Original - Chrome only version
