@@ -34751,10 +34751,18 @@ define('WebRTC_SDK/RTCPeer',['require','q','my.Class','underscore','backbone','L
 			if(BrowserDetector.browser === "chrome" || BrowserDetector.browser === "opera"){
 				// WRCS-341
 				peerConnectionConfig.sdpSemantics = 'plan-b';
-				console.log("Chrome: sdpSemantics is plan-b");
-			}
-			
+                console.log("Chrome: sdpSemantics is plan-b");
+            }
 
+            /**
+             * The WebRTC library version in the remote server is older and It doesn't understand the newer attribute
+             * `a=extmap-allow-mixed`(specifically in Chrome-89), in the Offer-SDP.
+             * Remote library version, failing with a parsing error, due to this extra attribute.
+             * Considering the complexity involved in fixing/handling this on the remote library(which is Ideal),
+             * As a quick fix we are resetting this attribute as a work around from the client code.
+             * (Refer :- WRCS-624)
+             */
+            peerConnectionConfig.offerExtmapAllowMixed = false;
             this.pc = new RTCPeerConnection(peerConnectionConfig, peerConnectionConstraints);
             this.pc.onicecandidate = this.onIceCandidate;
             this.pc.onaddstream = this.onRemoteStreamAdded;
