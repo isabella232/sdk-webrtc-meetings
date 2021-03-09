@@ -6,11 +6,11 @@
 
 Document Version: 1.4.1
 
-Document Date: 6/03/2021
+Document Date: 3/06/2021
 
 | Version | Date       | Description                                                  |
 | ------- | ---------- | ------------------------------------------------------------ |
-| 1.4.1   | 6/03/2021  | Fix the meeting join issue from chrome version 89            |
+| 1.4.1   | 3/6/2021  | Recent Chrome beta v89 update broke Bluejeans meeting join experience. This fix mitigates that update  |
 | 1.4.0   | 7/27/2020  | Update for compatibility with new BlueJeans video architecture. Fixes no video issues. New parameter required in initialize() to set remote audio element. |
 | 1.3.1   | 12/2/2019  | Update: remove optional requirement for Meeting Pool.  Make required that user's backend application schedules the meetings for the SDK to join.  Add note on disabling CORS for developers |
 | 1.3.0   | 2/21/2019  | Update webrtc-sdk.js / webrtcsdk.min.js to support Chrome SDP change |
