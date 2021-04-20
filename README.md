@@ -2,6 +2,11 @@
 
 ![BlueJeans](./media/927.png)
 
+<br />
+
+ ![](./media/caution-img.png)  **Note: This SDK will be deprecated soon.A brand new WebRTC SDK is in the works with better performance,  enhanced features and wider Browser support across Mac/Windows/Linux. Sign-up for beta access by filling the form https://forms.office.com/r/9MVvGaTY4D**
+
+<br />
 
 
 Document Version: 1.4.1
