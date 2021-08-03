@@ -3,13 +3,26 @@
 ![BlueJeans](./media/927.png)
 
 <br />
-
+## Announcement of deprecation
  ![](./media/caution-img.png)  **Note: This SDK will be deprecated soon.A brand new WebRTC SDK is in the works with better performance,  enhanced features and wider Browser support across Mac/Windows/Linux. Sign-up for beta access by filling the form https://forms.office.com/r/9MVvGaTY4D**
 
 <br />
 
+## Upcoming Plan B SDP Deprecation by Google & it's impact to users of this SDK (ETA | 31st Aug 2021)
 
-Document Version: 1.4.1
+Please review the guidance below for updated requirements: 
+
+With the impending Google Chrome 93 [release](https://www.chromestatus.com/features/schedule), Plan B SDP (which is currently being used by BlueJeans WebRTC SDK to support video on Chrome) is going to be deprecated.  To ensure your BlueJeans service continues to function post-SDP deprecation, it is imperative that the following steps are taken to avoid service interruption: 
+
+1. Register on the [origin trials page](https://developer.chrome.com/origintrials/#/view_trial/3892235977954951169) to receive a token 
+2. Follow the steps under “[How do I enable an experimental feature on my origin?](https://googlechrome.github.io/OriginTrials/developer-guide.html)”  
+3. Release the updated version of your website with the Origin-Trial token 
+
+The token must be implemented before August 31st, 2021. 
+If the token is not implemented, meetings using this SDK will no longer work on Google Chrome 93 and above.
+
+
+## Document Version: 1.4.1
 
 Document Date: 3/06/2021
 
