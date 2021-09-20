@@ -6,7 +6,12 @@
 
 ## Announcement of deprecation
 
- ![](./media/caution-img.png)  **Note: This SDK will be deprecated soon.A brand new WebRTC SDK is in the works with better performance,  enhanced features and wider Browser support across Mac/Windows/Linux. Sign-up for early beta access by filling the form : https://forms.office.com/r/9MVvGaTY4D**
+ ![](./media/caution-img.png) **This SDK is now deprecated and not recommended for use.**
+
+<br />
+
+## Announcement of new Web Client SDK beta release (20th Sep 2021)
+**A brand new Web Client SDK (beta) is now available for download after filling this [form](https://forms.office.com/r/9MVvGaTY4D).**
 
 <br />
 
