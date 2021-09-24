@@ -1,4 +1,4 @@
-# WebRTC Client SDK
+# WebRTC Client SDK - DEPRECATED!
 
 ![BlueJeans](./media/927.png)
 
@@ -6,12 +6,16 @@
 
 ## Announcement of deprecation
 
- ![](./media/caution-img.png) **This SDK is now deprecated and not recommended for use.**
+ ![](./media/caution-img.png)
+ <p>This SDK is now deprecated and not recommended for use.</p>
+ <p><u>Migrate</u> to new SDK by refering below announcement for latest features and continued support.</p>
 
 <br />
 
 ## Announcement of new Web Client SDK beta release (20th Sep 2021)
 **A brand new Web Client SDK (beta) is now available for download after filling this [form](https://forms.office.com/r/9MVvGaTY4D).**
+
+**Have a feature request on SDK? - Let us know by filling this [form](https://forms.office.com/r/5TSTdiTELe).**
 
 <br />
 
